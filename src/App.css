@@ -1,0 +1,71 @@
+.apfMargin50{
+  margin-left: 50px;
+}
+
+.apfMargin100 {
+  margin-left: 100px;
+}
+
+.apfButton{
+  margin-left:75px;
+  margin-top:10px;
+  color: rgb(26, 20, 35);
+}
+
+.apfForm{
+  margin-top:100px;
+}
+
+.qeP{
+  margin-top: 200px;
+}
+
+.navClear{
+  height: 100px;
+}
+
+.someSpace{
+    height: 50px;
+}
+
+.progressBar{
+  padding: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.result {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+
+.animated{
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+  /* 0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75; 
+  }
+  100% {
+    opacity: 1;       
+  } */
+  to{
+    opacity: 1;
+  }
+}
